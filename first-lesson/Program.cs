@@ -57,7 +57,17 @@ void ThirdTask(){
     Console.WriteLine(IsEven(number));
 }
 
+void FourthTask(){
+    Console.Write("Enter a number >>> ");
+    int number = Convert.ToInt32(Console.ReadLine());
+    for (int i = 2; i <= number; i++)
+    {
+        if(IsEven(i))
+            Console.Write($"{i} ");
+    }
+}
 
 //FirstTask();
 //SecondTask();
-ThirdTask();
+//ThirdTask();
+FourthTask();
