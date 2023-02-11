@@ -31,6 +31,8 @@ int IsMax(int firstNumber, int secondNumber){
     return secondNumber;
 }
 
+bool IsEven(int number) => number % 2 == 0;
+
 void FirstTask(){
     Console.Write("Enter first number >>> ");
     int firstNumber = Convert.ToInt32(Console.ReadLine());
@@ -39,4 +41,23 @@ void FirstTask(){
     Console.WriteLine(IsMax(firstNumber, secondNumber));
 }
 
-FirstTask();
+void SecondTask(){
+    Console.Write("Enter first number >>> ");
+    int firstNumber = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter second number >>> "); 
+    int secondNumber = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter third number >>> ");
+    int thirdNumber = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine(IsMax(firstNumber,IsMax(secondNumber, thirdNumber)));
+}
+
+void ThirdTask(){
+    Console.Write("Enter a number >>> ");
+    int number = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine(IsEven(number));
+}
+
+
+//FirstTask();
+//SecondTask();
+ThirdTask();
