@@ -1,0 +1,15 @@
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\bin\Debug\net7.0\Learn-Csharp.exe
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\bin\Debug\net7.0\Learn-Csharp.deps.json
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\bin\Debug\net7.0\Learn-Csharp.runtimeconfig.json
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\bin\Debug\net7.0\Learn-Csharp.dll
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\bin\Debug\net7.0\Learn-Csharp.pdb
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\Learn-Csharp.csproj.AssemblyReference.cache
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\Learn-Csharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\Learn-Csharp.AssemblyInfoInputs.cache
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\Learn-Csharp.AssemblyInfo.cs
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\Learn-Csharp.csproj.CoreCompileInputs.cache
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\Learn-Csharp.dll
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\refint\Learn-Csharp.dll
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\Learn-Csharp.pdb
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\Learn-Csharp.genruntimeconfig.cache
+D:\GeekBrains\dotnet\Learn-Csharp\Learn-Csharp\obj\Debug\net7.0\ref\Learn-Csharp.dll

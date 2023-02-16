@@ -1,0 +1,15 @@
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\first-lesson.csproj.AssemblyReference.cache
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\first-lesson.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\first-lesson.AssemblyInfoInputs.cache
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\first-lesson.AssemblyInfo.cs
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\first-lesson.csproj.CoreCompileInputs.cache
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\bin\Debug\net7.0\first-lesson.exe
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\bin\Debug\net7.0\first-lesson.deps.json
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\bin\Debug\net7.0\first-lesson.runtimeconfig.json
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\bin\Debug\net7.0\first-lesson.dll
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\bin\Debug\net7.0\first-lesson.pdb
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\first-lesson.dll
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\refint\first-lesson.dll
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\first-lesson.pdb
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\first-lesson.genruntimeconfig.cache
+D:\GeekBrains\dotnet\Learn-Csharp\first-lesson\obj\Debug\net7.0\ref\first-lesson.dll
