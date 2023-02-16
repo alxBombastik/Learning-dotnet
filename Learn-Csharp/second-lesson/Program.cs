@@ -46,8 +46,16 @@ void SecondTask(){
 6 -> да
 7 -> да
 1 -> нет
+*/
 
+bool CatchDayOfWeek(int number) => number == 6 || number == 7 ? true : false;
 
+void ThirdTask(){
+    int number = new Random().Next(1, 7);
+    Console.WriteLine($"{number} -> {CatchDayOfWeek(number)}");
+}
+
+/*
 После загрузки задания, вы можете проверить себя
  самостоятельно с помощью эталонного решения
 
@@ -74,4 +82,5 @@ void FizzBuzzTask()
 }
 //FizzBuzz();
 //FirstTask();
-SecondTask();
+//SecondTask();
+ThirdTask();
