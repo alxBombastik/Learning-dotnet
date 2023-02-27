@@ -84,7 +84,7 @@ void Task21(){
     Console.WriteLine(DistanceBetweenPoints());
 }
 
-Task21();
+//Task21();
 
 /*
 Задача 23
@@ -95,3 +95,25 @@ Task21();
 5 -> 1, 8, 27, 64, 125
 
 */
+
+int FillValue(){
+    Console.Write("Enter number >>>");
+    int number = Convert.ToInt32(Console.ReadLine());
+    return number;
+}
+
+void task23(){
+    int number = FillValue();
+    double result = 1;
+    for (int i = 1; i <= number; i++)
+    {
+        result = Math.Pow(i, 3);
+        if(i < number){
+            Console.Write($"{result}, ");
+        }
+        else{
+            Console.Write($"{result}. ");
+        }
+    }
+}
+task23();
