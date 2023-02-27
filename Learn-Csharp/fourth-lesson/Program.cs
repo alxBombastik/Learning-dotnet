@@ -21,7 +21,7 @@ void task25(){
 
 }
 
-task25();
+//task25();
 
 /*
 
@@ -33,6 +33,21 @@ task25();
 
 9012 -> 12
 */
+
+void task27(){
+    Console.Write("Enter a number >>> ");
+    int number = Convert.ToInt32(Console.ReadLine());
+    int result = 0;
+    while(number > 0){
+        result = result + number % 10;
+        number /= 10;
+    }
+    Console.WriteLine(result);
+
+}
+
+task27();
+
 /*
 Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
