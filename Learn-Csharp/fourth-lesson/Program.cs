@@ -46,7 +46,7 @@ void task27(){
 
 }
 
-task27();
+//task27();
 
 /*
 Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
@@ -55,3 +55,23 @@ task27();
 
 6, 1, 33 -> [6, 1, 33]
 */
+
+int[] FillArray(){
+    int[] lst = new int[8];
+    for(int i = 0; i < 8; i++){
+        Console.Write("Enter a number >>> ");
+        int value = Convert.ToInt32(Console.ReadLine());        
+        lst[i] = value; 
+    }
+    return lst;
+
+}
+
+void task29(){
+    foreach (int item in FillArray())
+    {
+        Console.Write($"{item}\t");  
+    }
+}
+
+task29();
