@@ -1,0 +1,15 @@
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\fifth-lesson.csproj.AssemblyReference.cache
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\fifth-lesson.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\fifth-lesson.AssemblyInfoInputs.cache
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\fifth-lesson.AssemblyInfo.cs
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\fifth-lesson.csproj.CoreCompileInputs.cache
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\bin\Debug\net7.0\fifth-lesson.exe
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\bin\Debug\net7.0\fifth-lesson.deps.json
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\bin\Debug\net7.0\fifth-lesson.runtimeconfig.json
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\bin\Debug\net7.0\fifth-lesson.dll
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\bin\Debug\net7.0\fifth-lesson.pdb
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\fifth-lesson.dll
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\refint\fifth-lesson.dll
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\fifth-lesson.pdb
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\fifth-lesson.genruntimeconfig.cache
+D:\GeekBrains\dotnet\Learn-Csharp\fifth-lesson\obj\Debug\net7.0\ref\fifth-lesson.dll
