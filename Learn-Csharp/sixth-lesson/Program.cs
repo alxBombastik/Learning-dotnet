@@ -141,4 +141,55 @@ void Task51(){
     System.Console.WriteLine($"{GetSumMatrixsDiagonal(matrix)}");
 }
 
-Task51();
+//Task51();
+
+
+/*
+Задача 41: Пользователь вводит с клавиатуры M чисел. 
+Посчитайте, сколько чисел больше 0 ввёл пользователь.
+
+0, 7, 8, -2, -2 -> 2
+
+1, -7, 567, 89, 223-> 3
+*/
+
+int Promt(string message){
+    Console.Write(message);
+    int number = Convert.ToInt32(Console.ReadLine());
+    return number;
+}
+
+int[] GetFillingArray(int arrayLength){
+    int[] array = new int[arrayLength];
+    for (int item = 0; item < array.Length; item++)
+    {
+        array[item] = Promt("Введите число >>> ");
+    }
+    return array;
+}
+
+int GetCountPositiveNumbers(int[] array){
+    int count = 0;
+    foreach (int item in array)
+    {
+        if (item > 0){
+            count++;
+        }
+    }
+    return count;
+}
+
+void Task41(){
+      int[] array = GetFillingArray(Promt("Введите количество элементов >>> "));
+      Console.WriteLine(GetCountPositiveNumbers(array));
+}
+
+Task41();
+/*
+Задача 43: Напишите программу, которая найдёт точку 
+пересечения двух прямых, заданных 
+уравнениями y = k1 * x + b1, y = k2 * x + b2; 
+значения b1, k1, b2 и k2 задаются пользователем.
+
+b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
+*/
