@@ -69,4 +69,49 @@ void Task53(){
     PrintIntMatrix(matrix);
 
 }
-Task53();
+//Task53();
+
+// bool CompareIndexes(int row, int col){
+//     return row == col;
+// }
+
+bool Proverka(int[,] matrix, int row, int col){
+    if((matrix.Length > row && matrix.Length > col) && (row >= 0 && col >= 0)){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+int[,] NewMatrix(int[,] matrix, int row, int col){
+    int temp = 0;
+    int[,] transpoceMatrix = new int[matrix.GetLength(0), matrix.GetLength(1)];
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            
+            transpoceMatrix[j, i] = matrix[i, j];
+        }        
+    }
+    return transpoceMatrix;
+}
+
+void Task55(){
+    int row = GetRows("индекс строки");
+    int col = GetCols("индекс столбца");
+    int[,] matrix = new int[5, 5];
+    FillArrayRandomIntValues(matrix, -10, 10);
+    Console.WriteLine("Старый массив");
+    PrintIntMatrix(matrix);
+    if(Proverka(matrix, row, col)){
+        Console.WriteLine("Новый массив");
+        int[,] newMatrix = NewMatrix(matrix,row, col);
+        PrintIntMatrix(newMatrix);
+    }
+    else{
+        Console.WriteLine("Невозможно поменять местами");
+    }
+}
+Task55();
