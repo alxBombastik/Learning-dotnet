@@ -121,7 +121,7 @@ void Task50(){
     GetMatrixItemByIndex(matrix, row, col);
 }
 
-Task50();
+//Task50();
 
 /*
 Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
@@ -133,4 +133,34 @@ Task50();
 Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
 */
+
+int[] GetAvgOfEachColumnMatrix(int[,] matrix){
+    int[] avgArrayOfEachColumn = new int[matrix.GetLength(1)];
+    for (int cols = 0; cols < matrix.GetLength(1); cols++)
+    {
+        int sum = 0;
+        for (int i = 0; i < matrix.GetLength(0); i++)
+        {
+            sum += matrix[i, cols];
+        }
+        avgArrayOfEachColumn[cols] = sum;
+    }
+    return avgArrayOfEachColumn;
+}
+
+void Task52(){
+    int row = GetRows("количество строк");
+    int col = GetCols("количество столбцов");
+    int[,] matrix = new int[row, col];
+    FillArrayRandomIntValues(matrix, -10, 10);
+    PrintIntMatrix(matrix);
+    int[] avgArrayOfEachColumn = GetAvgOfEachColumnMatrix(matrix);
+    System.Console.WriteLine();
+    foreach (int item in avgArrayOfEachColumn)
+    {
+        Console.Write($"{item}\t");       
+    }
+}
+
+Task52();
 
