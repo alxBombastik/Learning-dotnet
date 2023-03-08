@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "eighth-lesson/1.0.0": {
+        "runtime": {
+          "eighth-lesson.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eighth-lesson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

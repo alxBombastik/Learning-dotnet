@@ -14,31 +14,6 @@ int GetCols(string message){
     return cols;
 }
 
-
-double[,] FillArrayRandomDoubleValues(double[,] matrix, double first, double last){
-    double[,] newMatrix = matrix;
-    for (int rows = 0; rows < newMatrix.GetLength(0); rows++)
-    {
-        for (int cols = 0; cols < newMatrix.GetLength(1); cols++)
-        {
-            newMatrix[rows,cols] = new Random().NextDouble() * (first - last) + last;
-
-        }    
-    }
-    return newMatrix;
-}
-
-void PrintDoubleMatrix(double[,] matrix){
-    for (int rows = 0; rows < matrix.GetLength(0); rows++)
-    {
-        for (int cols = 0; cols < matrix.GetLength(1); cols++)
-        {
-            Console.Write($"{matrix[rows,cols]:f2}\t");
-        }
-        Console.WriteLine();
-    }
-}
-
 int[,] FillArrayRandomIntValues(int[,] matrix, int first, int last){
     int[,] newMatrix = matrix;
     for (int rows = 0; rows < newMatrix.GetLength(0); rows++)
@@ -64,73 +39,59 @@ void PrintIntMatrix(int[,] matrix){
 }
 
 /*
-
-Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
-
-m = 3, n = 4.
-
-0,5 7 -2 -0,2
-
-1 -3,3 8 -9,9
-
-8 7,8 -7,1 9
+Задача 53: Задайте двумерный массив. Напишите программу, 
+которая поменяет местами первую и последнюю строку массива.
+Задача 55: Задайте двумерный массив. 
+Напишите программу, которая заменяет строки на столбцы. В случае, 
+если это невозможно, программа должна вывести сообщение для пользователя.
 */
 
-void Task47(){
-    int rows = GetRows("количество строк");
-    int cols = GetCols("количество столбцов");
-    double[,] matrix = new double[rows, cols];
-    FillArrayRandomDoubleValues(matrix, -10, 10);
-    PrintDoubleMatrix(matrix);
-}
-
-//Task47();
-/*
-
-Задача 50. Напишите программу, которая на вход принимает
- позиции элемента в двумерном массиве, и возвращает 
- значение этого элемента или же указание, что такого элемента нет.
-
-Например, задан массив:
-
-1 4 7 2
-
-5 9 2 3
-
-8 4 2 4
-
-[1,7] -> по данным индексам такого числа в массиве нет
-
-*/
-
-void GetMatrixItemByIndex(int [,] matrix, int row, int col){
-    if(row < matrix.GetLength(0) && col < matrix.GetLength(1)){
-        Console.WriteLine("По данным индексам такого числа в массиве нет");
-    }
-    else{
-        Console.WriteLine($"По данным индексам matrix[{row},{col}] = {matrix[row,col]}");
+void ReverseRowsInMatrix(int[,] matrix){
+    int temp = 0;
+    for (int rows = 0; rows < matrix.GetLength(1); rows++)
+    {
+        temp = matrix[0, rows];
+        matrix[0, rows] = matrix[matrix.GetLength(0) - 1, rows];
+        matrix[matrix.GetLength(0) - 1, rows] = temp;
     }
 }
 
-void Task50(){
+void Task53(){
     int row = GetRows("индекс строки");
     int col = GetCols("индекс столбца");
-    int[,] matrix = new int[5, 6];
+    int[,] matrix = new int[row, col];
     FillArrayRandomIntValues(matrix, -10, 10);
+    Console.WriteLine("Старый массив");
     PrintIntMatrix(matrix);
-    GetMatrixItemByIndex(matrix, row, col);
+    ReverseRowsInMatrix(matrix);
+    Console.WriteLine("Новый массив");
+    PrintIntMatrix(matrix);
+
+}
+//Task53();
+
+int[,] NewMatrix(int[,] matrix){    
+    int[,] transpoceMatrix = new int[matrix.GetLength(1), matrix.GetLength(0)];
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {            
+            transpoceMatrix[j, i] = matrix[i, j];
+        }        
+    }
+    return transpoceMatrix;
 }
 
-Task50();
-
-/*
-Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-
-Например, задан массив:
-1 4 7 2
-5 9 2 3
-8 4 2 4
-Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
-
-*/
-
+void Task55(){
+    int row = GetRows("величину строки");
+    int col = GetCols("величину столбца");
+    int[,] matrix = new int[row, col];
+    FillArrayRandomIntValues(matrix, -10, 10);
+    Console.WriteLine("Старый массив");
+    PrintIntMatrix(matrix);    
+    Console.WriteLine("Новый массив");
+    int[,] newMatrix = NewMatrix(matrix);
+    PrintIntMatrix(newMatrix);
+    
+}
+Task55();
