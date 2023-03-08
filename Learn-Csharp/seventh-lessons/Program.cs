@@ -104,18 +104,18 @@ void Task47(){
 */
 
 void GetMatrixItemByIndex(int [,] matrix, int row, int col){
-    if(row < matrix.GetLength(0) && col < matrix.GetLength(1)){
-        Console.WriteLine("По данным индексам такого числа в массиве нет");
+    if((row < matrix.GetLength(0) && col < matrix.GetLength(1)) && (col > 0 && row > 0)){
+        Console.WriteLine($"По данным индексам matrix[{row},{col}] = {matrix[row,col]}");
     }
     else{
-        Console.WriteLine($"По данным индексам matrix[{row},{col}] = {matrix[row,col]}");
+        Console.WriteLine("По данным индексам такого числа в массиве нет");
     }
 }
 
 void Task50(){
     int row = GetRows("индекс строки");
     int col = GetCols("индекс столбца");
-    int[,] matrix = new int[5, 6];
+    int[,] matrix = new int[5, 5];
     FillArrayRandomIntValues(matrix, -10, 10);
     PrintIntMatrix(matrix);
     GetMatrixItemByIndex(matrix, row, col);
