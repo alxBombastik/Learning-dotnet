@@ -1,0 +1,15 @@
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\bin\Debug\net7.0\ninth-lesson.exe
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\bin\Debug\net7.0\ninth-lesson.deps.json
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\bin\Debug\net7.0\ninth-lesson.runtimeconfig.json
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\bin\Debug\net7.0\ninth-lesson.dll
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\bin\Debug\net7.0\ninth-lesson.pdb
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ninth-lesson.csproj.AssemblyReference.cache
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ninth-lesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ninth-lesson.AssemblyInfoInputs.cache
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ninth-lesson.AssemblyInfo.cs
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ninth-lesson.csproj.CoreCompileInputs.cache
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ninth-lesson.dll
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\refint\ninth-lesson.dll
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ninth-lesson.pdb
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ninth-lesson.genruntimeconfig.cache
+C:\Users\sandr\source\repos\9AlexeyEmelyanov\Learning-dotnet\Learn-Csharp\ninth-lesson\obj\Debug\net7.0\ref\ninth-lesson.dll

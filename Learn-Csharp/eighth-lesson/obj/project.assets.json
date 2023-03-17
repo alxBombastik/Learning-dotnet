@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GeekBrains\\dotnet\\Learn-Csharp\\eighth-lesson\\eighth-lesson.csproj",
+      "projectUniqueName": "C:\\Users\\sandr\\source\\repos\\9AlexeyEmelyanov\\Learning-dotnet\\Learn-Csharp\\eighth-lesson\\eighth-lesson.csproj",
       "projectName": "eighth-lesson",
-      "projectPath": "D:\\GeekBrains\\dotnet\\Learn-Csharp\\eighth-lesson\\eighth-lesson.csproj",
+      "projectPath": "C:\\Users\\sandr\\source\\repos\\9AlexeyEmelyanov\\Learning-dotnet\\Learn-Csharp\\eighth-lesson\\eighth-lesson.csproj",
       "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
-      "outputPath": "D:\\GeekBrains\\dotnet\\Learn-Csharp\\eighth-lesson\\obj\\",
+      "outputPath": "C:\\Users\\sandr\\source\\repos\\9AlexeyEmelyanov\\Learning-dotnet\\Learn-Csharp\\eighth-lesson\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
